@@ -1,0 +1,90 @@
+.logo-pages-intro{
+    margin-bottom: 10px;
+}
+
+.logo-pages-intro img{
+    width: 120px;
+}
+
+.logo-integral-dashboard{
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+.logo-integral-dashboard img{
+    width: 30px;
+    margin: auto;
+    display: block;
+}
+
+.fas{
+    padding-right: 12px;
+    min-width: 35px;
+    color: #6c7293 !important;
+    font-size: 16px;
+}
+
+.container-btn-add-list{
+    display: flex;
+    padding-right: 10px;
+}
+
+.container-btn-add-list>button{
+    margin: 0 0 0 auto;
+}
+
+.input-filter{
+    width: 100px;
+    height: 23px;
+    border-radius: 5px;
+    border: 1px solid #bdb5b5;
+}
+
+.item-activate-user-info{
+    display: flex !important;
+}
+
+.navbar-breadcrumb{
+    background: #666666 !important;
+}
+
+.navbar .navbar-brand-wrapper{
+    background: gray !important;
+}
+
+.navbar{
+    border-bottom: 4px solid #666666 !important;
+}
+
+.pagination{
+    padding: 10px 5px !important;
+}
+
+#content-files-debts{
+    margin-bottom: 20px;
+}
+
+.img-table-record{
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 150px;
+}
+
+.options-select-autocomplete{
+    display: flex;
+    flex-direction: column;
+}
+
+.options-select-autocomplete>span{
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 1px solid #d5cbcb;
+}
+
+.btn-hm-consultores{
+    background-color: #7D8184 !important;
+    border: 0px !important;
+}
