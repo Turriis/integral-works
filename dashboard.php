@@ -35,7 +35,7 @@
               <span id="lbl-name-session" class="nav-profile-name"></span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/perfil/myinfo.php" class="dropdown-item">
+              <a href="http://localhost/integral-works/sections/perfil/myinfo.php" class="dropdown-item">
                 <i class="typcn typcn-cog-outline text-primary"></i>
                 Mi perfil
               </a>

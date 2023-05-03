@@ -30,7 +30,7 @@
                         </div>
                         <div class="row mt-5">
                             <div class="col-12 text-center mt-xl-2">
-                                <a class="text-white font-weight-medium" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">Ir al Dashboard</a>
+                                <a class="text-white font-weight-medium" href="http://localhost/integral-works/dashboard.php">Ir al Dashboard</a>
                             </div>
                         </div>
                         <div class="row mt-5">

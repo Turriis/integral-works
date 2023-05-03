@@ -1,5 +1,5 @@
 //Url donde estan las API'S de Integral Works
-var urlApi = "http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/api/";
+var urlApi = "http://localhost/integral-works/api/";
 
 //--------------FUNCIONES EN GENERAL--------------------//
 //Función para loguearse
@@ -114,10 +114,10 @@ function getSession(){
    if (session.image !== '') {
       //Si es cliente
       if (session.privileges == '10') {
-         document.getElementById("img-session").src="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/uploads/clients/image_perfil/"+session.id+"/"+session.image+"";
+         document.getElementById("img-session").src="http://localhost/integral-works/uploads/clients/image_perfil/"+session.id+"/"+session.image+"";
       //Si es usuario
       } else {
-         document.getElementById("img-session").src="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/uploads/users/image_perfil/"+session.id+"/"+session.image+"";
+         document.getElementById("img-session").src="http://localhost/integral-works/uploads/users/image_perfil/"+session.id+"/"+session.image+"";
       }
    }
 }
@@ -126,7 +126,7 @@ function getSession(){
 function closeSession(){
   if (confirm("¿Estas seguro de cerrar sesión?") == true) {
      localStorage.removeItem('sessionHM');
-     window.location = "http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/index.php";
+     window.location = "http://localhost/integral-works/index.php";
   }else{
 
   }
@@ -136,14 +136,14 @@ function closeSession(){
 function checkSession(){
   var session = JSON.parse(localStorage.getItem('sessionHM'));
   if ( session == null ){
-     window.location = 'http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/index.php';
+     window.location = 'http://localhost/integral-works/index.php';
   }
 }
 
 function checkSession2(){
   var session = JSON.parse(localStorage.getItem('sessionHM'));
   if ( session !== null ){
-     window.location = 'http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php';
+     window.location = 'http://localhost/integral-works/dashboard.php';
   }
 }
 
@@ -168,7 +168,7 @@ function verifyPrivileges(privileges){
    //Checamos si el privilegio actual pertenece a uno de los que deberia
    //Si no esta dentro de los privilegios permitidos lo redireccionamos al inicio
    if (privileges.includes(session.privileges) === false) {
-      window.location.href = 'http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/page_error.php';
+      window.location.href = 'http://localhost/integral-works/page_error.php';
    }
 
 }
@@ -1065,7 +1065,7 @@ function createClient(){
          var datos = JSON.parse(texto);
          console.log(datos);
           if (datos.error == false) {
-             sendEmailOne(formData.get('email-client'), '<p>Bienvenido a la plataforma de HM Consultores, para ingresar entra con el usuario: '+formData.get('email-client')+' y la contraseña: '+formData.get('pass-client')+' en la siguiente liga</p><br><a href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma">Ir a la plataforma</a>', 'Bienvenido a la plataforma HM Consultores')
+             sendEmailOne(formData.get('email-client'), '<p>Bienvenido a la plataforma de HM Consultores, para ingresar entra con el usuario: '+formData.get('email-client')+' y la contraseña: '+formData.get('pass-client')+' en la siguiente liga</p><br><a href="http://localhost/integral-works">Ir a la plataforma</a>', 'Bienvenido a la plataforma HM Consultores')
              alert(datos.message);
              window.location = 'list.php';
 

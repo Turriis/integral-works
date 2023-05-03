@@ -8,13 +8,13 @@ function initMenu(){
     if(session.privileges == '1'){
         document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
         '<li class="nav-item">'+
-        '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+        '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
             '<i class="typcn typcn-device-desktop menu-icon"></i>'+
             '<span class="menu-title">Dashboard</span>'+
         '</a>'+
         '</li>'+
         '<li class="nav-item">'+
-        '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/users/list.php">'+
+        '<a class="nav-link" href="http://localhost/integral-works/sections/users/list.php">'+
             '<i class="fas fa-users"></i>'+
             '<span class="menu-title">Usuarios</span>'+
         '</a>'+
@@ -40,7 +40,7 @@ function initMenu(){
         '</a>'+
         '<div class="collapse" id="ui-clients">'+
             '<ul class="nav flex-column sub-menu">'+
-            '<li class="nav-item"> <a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/clients/list.php">Lista</a></li>'+
+            '<li class="nav-item"> <a class="nav-link" href="http://localhost/integral-works/sections/clients/list.php">Lista</a></li>'+
             '</ul>'+
         '</div>'+
         '</li>'+
@@ -51,19 +51,19 @@ function initMenu(){
     if (session.privileges == '2') {
         document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
         '<li class="nav-item">'+
-        '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+        '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
             '<i class="typcn typcn-device-desktop menu-icon"></i>'+
             '<span class="menu-title">Dashboard</span>'+
         '</a>'+
         '</li>'+
         '<li class="nav-item">'+
-        '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/users/list.php">'+
+        '<a class="nav-link" href="http://localhost/integral-works/sections/users/list.php">'+
             '<i class="fas fa-box-open"></i>'+
             '<span class="menu-title">Inventario</span>'+
         '</a>'+
         '</li>'+
         '<li class="nav-item">'+
-        '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/users/list.php">'+
+        '<a class="nav-link" href="http://localhost/integral-works/sections/users/list.php">'+
             '<i class="fas fa-receipt"></i>'+
             '<span class="menu-title">Nominas</span>'+
         '</a>'+
@@ -119,7 +119,7 @@ function initMenu(){
     if (session.privileges == '3') {
         document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
         '<li class="nav-item">'+
-        '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+        '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
             '<i class="typcn typcn-device-desktop menu-icon"></i>'+
             '<span class="menu-title">Dashboard</span>'+
         '</a>'+
@@ -145,13 +145,13 @@ function initMenu(){
 if (session.privileges == '4') {
     document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
         '<i class="typcn typcn-device-desktop menu-icon"></i>'+
         '<span class="menu-title">Dashboard</span>'+
     '</a>'+
     '</li>'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/users/list.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/sections/users/list.php">'+
         '<i class="fas fa-receipt"></i>'+
         '<span class="menu-title">Nominas</span>'+
     '</a>'+
@@ -162,13 +162,13 @@ if (session.privileges == '4') {
 if (session.privileges == '5') {
     document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
         '<i class="typcn typcn-device-desktop menu-icon"></i>'+
         '<span class="menu-title">Dashboard</span>'+
     '</a>'+
     '</li>'+
     '<li class="nav-item">'+
-        '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/users/list.php">'+
+        '<a class="nav-link" href="http://localhost/integral-works/sections/users/list.php">'+
             '<i class="fas fa-box-open"></i>'+
             '<span class="menu-title">Inventario</span>'+
         '</a>'+
@@ -198,7 +198,7 @@ if (session.privileges == '5') {
 if (session.privileges == '6') {
     document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
         '<i class="typcn typcn-device-desktop menu-icon"></i>'+
         '<span class="menu-title">Dashboard</span>'+
     '</a>'+
@@ -221,7 +221,7 @@ if (session.privileges == '6') {
 if (session.privileges == '7') {
     document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
         '<i class="typcn typcn-device-desktop menu-icon"></i>'+
         '<span class="menu-title">Dashboard</span>'+
     '</a>'+
@@ -252,7 +252,7 @@ if (session.privileges == '7') {
 if (session.privileges == '8') {
     document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
         '<i class="typcn typcn-device-desktop menu-icon"></i>'+
         '<span class="menu-title">Dashboard</span>'+
     '</a>'+
@@ -282,13 +282,13 @@ if (session.privileges == '8') {
 if (session.privileges == '9') {
     document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
         '<i class="typcn typcn-device-desktop menu-icon"></i>'+
         '<span class="menu-title">Dashboard</span>'+
     '</a>'+
     '</li>'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/users/list.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/sections/users/list.php">'+
         '<i class="fas fa-clipboard-check"></i>'+
         '<span class="menu-title">Mis asistencias</span>'+
     '</a>'+
@@ -299,19 +299,19 @@ if (session.privileges == '9') {
 if (session.privileges == '10') {
     document.getElementById("sidebar").innerHTML = '<ul class="nav">'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/dashboard.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/dashboard.php">'+
         '<i class="typcn typcn-device-desktop menu-icon"></i>'+
         '<span class="menu-title">Dashboard</span>'+
     '</a>'+
     '</li>'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/my_debts/list.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/sections/my_debts/list.php">'+
         '<i class="fas fa-dollar-sign"></i>'+
         '<span class="menu-title">Cuentas por pagar</span>'+
     '</a>'+
     '</li>'+
     '<li class="nav-item">'+
-    '<a class="nav-link" href="http://localhost/Base_admin/BASE_ADMIN__HMCONSULTORES/plataforma/sections/my_pays/list.php">'+
+    '<a class="nav-link" href="http://localhost/integral-works/sections/my_pays/list.php">'+
         '<i class="fas fa-credit-card"></i>'+
         '<span class="menu-title">Mis pagos</span>'+
     '</a>'+
